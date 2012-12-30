@@ -5,6 +5,8 @@
 # Home page
 GET     /                           controllers.Gate.index()
 GET     /about                      controllers.Gate.underConstruction()
+GET     /programming                controllers.Gate.underConstruction()
+GET     /life	                    controllers.Gate.underConstruction()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
