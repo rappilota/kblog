@@ -1,0 +1,32 @@
+@(message: String)
+
+
+
+	@main(message + " by Alpár Gábos") {
+
+<p class="name">Alpár Gábos</p>
+<p>Blog full of thoughts, ideas and knowledge snipetts about life & programming.</p>
+
+<div style="display:table;margin: 0 auto;">
+	<ul>
+		<li class="span4"><a href="/about" class="cssmousover"
+			style="background-image: url('@routes.Assets.at("images/about_hover.png")')";">
+		</a></li>
+		<li class="span4"><a href="/programming" class="cssmousover"
+			style="background-image: url('@routes.Assets.at("images/programming_tile.png")')";">
+		</a></li>
+		<li class="span4"><a href="/life" class="cssmousover"
+			style="background-image: url('@routes.Assets.at("images/life_tile.png")')";">
+		</a></li>
+	</ul>
+	</div>
+	<div class="spinner-container" style="display:table;margin: 0 auto;padding-top:50px">
+		<ul class="spinner">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+
+	}
