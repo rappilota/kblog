@@ -47,7 +47,7 @@ Jake Caputo / Designcrumbs - designcrumbs.com
 	display: block;
 }
 
-h2 {
+h2.countdown {
 	font-size:40px;
 	line-height:40px;
 	font-family: 'BebasNeueRegular', Verdana, Geneva, sans-serif;
@@ -133,7 +133,7 @@ h2 {
 		margin-bottom:20px;
 	}
     
-    h2 {
+    h2.countdown {
     	font-size: 30px;
     	line-height: 30px;
     	margin: 0;

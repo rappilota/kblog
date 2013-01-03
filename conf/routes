@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                           controllers.Gate.index()
-GET     /about                      controllers.Gate.underConstruction()
+GET     /about                      controllers.Gate.about()
 GET     /programming                controllers.Gate.underConstruction()
 GET     /life	                    controllers.Gate.underConstruction()
 

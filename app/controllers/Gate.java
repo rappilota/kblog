@@ -15,4 +15,8 @@ public class Gate extends Controller {
         return ok(views.html.countdown.render());
     }
 
+    public static Result about() {
+    	return ok(views.html.about.render());
+    }
+
 }
