@@ -16,7 +16,10 @@ public class Gate extends Controller {
     }
 
     public static Result about() {
-    	return ok(views.html.about.render());
+        return ok(views.html.about.render());
     }
 
+    public static Result posts() {
+        return ok(views.html.notfound.render());
+    }
 }

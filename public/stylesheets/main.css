@@ -153,10 +153,11 @@ ul {
 	src: url('Socialico.ttf'), url('Socialico.otf');
 }
 
-li.social{
+#social{
 	margin-top: 0px;
 	font-family:socialFonts;
 	font-size: 60px;
+	float: left;
 }
 
 #contact ul {
@@ -169,16 +170,16 @@ li.social{
 	top: 12px;
 	display: block;
 	text-decoration: none;
-	float: left;
+	margin-left: 22px;
 }
 
-#contact a{
+a{
 	color: #626D6F;
-	text-decoration: none;
 }
 
-#contact a:hover{
+a:hover{
 	color: #08C;
+	text-decoration: none;
 }
 
 #resume {
@@ -191,13 +192,17 @@ li.social{
 	outline: 0;
 	font-size: 100%;
 	display: block;
-	top: 27px;
+	top: 50px;
 }
 
-
-#resume h2 {
-	width: 202px;
-	font-size: 18px;
+#grab{
+	font-family: "league-gothic-1","league-gothic-2";
+	text-transform: uppercase;
+	font-size: 24px;
+	border-bottom: 2px solid #626D6F;
+	padding-bottom: 20px;
+	float: right;
+	padding-bottom: 10px;
 }
 
 /*
