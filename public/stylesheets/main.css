@@ -9,17 +9,6 @@ a.cssmousover:hover {
 	background-position: 0px -222px;
 }
 
-a.earth {
-	display: block;
-	width: 537px;
-	height: 537px;
-	background-position: 0px 0px;
-}
-
-a.earth:hover {
-	background-position: 0px -537px;
-}
-
 
 p{
     color: #6F7D80;
