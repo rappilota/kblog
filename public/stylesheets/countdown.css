@@ -24,7 +24,7 @@ Jake Caputo / Designcrumbs - designcrumbs.com
 }
 
 /* ============================================== GENERAL ============================================== */
-.wrapper {
+countdown_wrapper {
 	width:100%;
 	padding: 0;
 	margin:0;
@@ -34,7 +34,7 @@ Jake Caputo / Designcrumbs - designcrumbs.com
     background-image:url("images/trans.png");
 }
 
-.container {
+countdown_container {
 	width:620px;
 	padding:0;
 	margin:0 auto;
@@ -58,7 +58,7 @@ h2.countdown {
 
 
 
-.clear {
+clear {
 	clear:both;
 }
 
@@ -125,7 +125,7 @@ h2.countdown {
 /* Media for anything with a max width of 767px. Mostly small tablets and iPhones & Smartphones */
 
 @media (min-width: 0px) and (max-width: 767px) {
-    .container {
+    countdown_container {
     	width:100%;
     }
     

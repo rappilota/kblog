@@ -3,12 +3,11 @@ package controllers;
 
 import play.mvc.Controller;
 import play.mvc.Result;
-import views.html.index;
 
 public class Gate extends Controller {
 
     public static Result index() {
-        return ok(index.render("Knowledge snippets"));
+        return ok(views.html.index.render("Knowledge snippets"));
     }
 
     public static Result underConstruction() {
@@ -20,6 +19,6 @@ public class Gate extends Controller {
     }
 
     public static Result posts() {
-        return ok(views.html.notfound.render());
+        return ok(views.html.posts.render());
     }
 }
